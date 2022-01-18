@@ -1,2 +1,2 @@
-let myName = '鄭育柔';
+let myName = 'vicky';
 console.log(myName);
