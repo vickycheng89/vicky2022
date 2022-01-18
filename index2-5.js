@@ -63,9 +63,19 @@ let card = {
     addr: 'ccc'
 };
 
-console.log(card.name);
-console.log(card.tel);
-console.log(card.addr);
+//console.log(card.name);
+//console.log(card.tel);
+//console.log(card.addr);
 
 let y = 'name';
 console.log(card[y]);
+
+let zz=123;
+let yy= zz;
+yy = 456;
+//console.log(zz);
+
+let card1=card;
+card1.name='456'
+console.log (card1);
+console.log(card.name);
