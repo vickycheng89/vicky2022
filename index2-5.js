@@ -53,6 +53,16 @@ let xx = [59,100,80,40,90];
 
 
 for(let i=0; i < xx.length;i++){
-
-console.log(xx[i]);
+//console.log(xx[i]);
 }
+
+
+let card = {
+    name:'vicky',
+    tel: '091511111',
+    addr: 'ccc'
+};
+
+console.log(card.name);
+console.log(card.tel);
+console.log(card.addr);
