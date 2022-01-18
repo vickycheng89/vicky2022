@@ -19,7 +19,7 @@ console.log(s6);
 
 
 
-//
+//boolean
 console.log(10 > 5);
 console.log(10 < 5);
 console.log(1);
